@@ -1,6 +1,6 @@
 {
     "name": "jo/nette-grido",
-    "description": "Entity form manager for nette forms",
+    "description": "Nette grido extensions",
 	"type": "library",
     "version": "0.1.0",
     "keywords": ["nette","Grido","Date","filter"],
