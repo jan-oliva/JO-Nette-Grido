@@ -1,3 +1,7 @@
+# extension for Grido Grid
+
+see https://packagist.org/packages/o5/grido
+
 # usage
 # boostrap
 
