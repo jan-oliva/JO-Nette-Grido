@@ -45,6 +45,9 @@ class DateRangeExt extends DateRange
 				return "";
 			}
 			$dtm = \DateTime::createFromFormat($this->dateFormatInput, trim($value));
+			if($dtm === false){
+				return "";
+			}
 			$condition = \Grido\Components\Filters\Condition::setup($this->getColumn(), "= ?", $dtm->format($this->dateFormatOutput[0]));
 			return $condition;
 		}
