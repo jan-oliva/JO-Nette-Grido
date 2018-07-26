@@ -3,9 +3,11 @@
 see https://packagist.org/packages/o5/grido
 
 # usage
-# boostrap
+# boostrap.php
 
+```
 JO\Nette\Grido\Components\Filters\DateRangeExt::register();
+```
 
 # create data grid
 
